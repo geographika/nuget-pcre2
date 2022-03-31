@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PCRE2</id>
+    <version>10.39</version>
+    <description>Perl-Compatible Regular Expressions</description>
+    <tags>PCRE, regex, PCRE2</tags>
+    <authors>geographika</authors>
+    <license type="file">LICENCE</license>
+    <projectUrl>https://www.pcre.org/</projectUrl>
+    <readme>README.md</readme>
+  </metadata>
+
+  <files>
+    <file src="doc/**/*.*" />
+    <file src="include/**/*.*" />
+    <file src="lib/**/*.*" />
+    <file src="AUTHORS"/>
+    <file src="LICENCE"/>
+    <file src="README.md"/>
+  </files>
+</package>
