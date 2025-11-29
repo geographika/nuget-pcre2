@@ -2,21 +2,19 @@
 <package >
   <metadata>
     <id>PCRE2</id>
-    <version>10.39</version>
+    <version>$version$</version>
     <description>Perl-Compatible Regular Expressions</description>
     <tags>PCRE, regex, PCRE2</tags>
     <authors>geographika</authors>
-    <license type="file">LICENCE</license>
+    <license type="file">LICENSE</license>
     <projectUrl>https://www.pcre.org/</projectUrl>
     <readme>README.md</readme>
   </metadata>
 
   <files>
-    <file src="doc/**/*.*" />
-    <file src="include/**/*.*" />
-    <file src="lib/**/*.*" />
-    <file src="AUTHORS"/>
-    <file src="LICENCE"/>
-    <file src="README.md"/>
+    <!-- Use backward slashes for wildcards - nuget is picky about this. -->
+    <file src="README.md" />
+    <file src="LICENSE" />
+    <file src="package\**\*.*" />
   </files>
 </package>
