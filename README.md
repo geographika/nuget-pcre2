@@ -1,7 +1,11 @@
 ### NuGet package for PCRE2 - Perl-Compatible Regular Expressions.
 
-PCRE2 NuGet - https://www.nuget.org/packages/PCRE2/
-PCRE2 library - https://github.com/PCRE2Project/pcre2
+| Repository / Package       | URL | Badge |
+|----------------------------|-----|----------------|
+| Original repository        | https://github.com/PCRE2Project/pcre2/ | [![Latest tag](https://img.shields.io/github/v/tag/PCRE2Project/pcre2?sort=semver)](https://github.com/PCRE2Project/pcre2/) |
+| NuGet package              | https://nuget.org/packages/PCRE2/ | [![NuGet version](https://img.shields.io/nuget/v/PCRE2)](https://nuget.org/packages/PCRE2/) |
+| nuget-pcre2                | https://github.com/geographika/nuget-pcre2 | - |
+
 
 Usage (from powershell):
 ```powershell
